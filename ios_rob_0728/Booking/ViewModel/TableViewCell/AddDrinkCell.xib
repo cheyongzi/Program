@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="71" id="jHf-OO-rVd" customClass="AddDrinkCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jHf-OO-rVd" id="hLl-PQ-8dA">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="com_con_bg.png" id="WGK-4k-sFT">
+                        <rect key="frame" x="8" y="0.0" width="306" height="71"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="con_wear.png" id="zMq-J9-9YM">
+                        <rect key="frame" x="20" y="6" width="63" height="60"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hGG-PN-QTr">
+                        <rect key="frame" x="89" y="37" width="123" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yzt-0n-Zpg">
+                        <rect key="frame" x="214" y="34" width="28" height="28"/>
+                        <state key="normal" backgroundImage="con_drink_reduceNo.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sEy-dr-0gY">
+                        <rect key="frame" x="269" y="34" width="28" height="28"/>
+                        <state key="normal" backgroundImage="con_drink_add.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dJo-f9-YLI">
+                        <rect key="frame" x="242" y="39" width="23" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r2Y-cs-vXV">
+                        <rect key="frame" x="89" y="7" width="216" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundImg" destination="WGK-4k-sFT" id="3Fd-Hv-5TK"/>
+                <outlet property="goodAddBtn" destination="sEy-dr-0gY" id="IAV-fW-7sS"/>
+                <outlet property="goodCountLabel" destination="dJo-f9-YLI" id="aKx-vi-SfC"/>
+                <outlet property="goodImg" destination="zMq-J9-9YM" id="mB4-wI-iNP"/>
+                <outlet property="goodNameLabel" destination="r2Y-cs-vXV" id="Sg6-rQ-xZ9"/>
+                <outlet property="goodPriceLabel" destination="hGG-PN-QTr" id="ekt-Zo-dOt"/>
+                <outlet property="goodReduceBtn" destination="Yzt-0n-Zpg" id="dPA-mD-BGB"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="com_con_bg.png" width="72" height="72"/>
+        <image name="con_drink_add.png" width="30" height="30"/>
+        <image name="con_drink_reduceNo.png" width="30" height="30"/>
+        <image name="con_wear.png" width="118" height="100"/>
+    </resources>
+</document>

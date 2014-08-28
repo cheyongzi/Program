@@ -1,0 +1,7 @@
+{
+	"pay_info" = "service=\"mobile.securitypay.pay\"&partner=\"2088211359940020\"&_input_charset=\"UTF-8\"&notify_url=\"http%3A%2F%2Fpay.weigee.net%2FaliMobilePay%2Fnotify.cmd\"&out_trade_no=\"5502201406281037481403923068107\"&subject=\"\U666e\U4e50\U8fea\U91cf\U8d29KTV\"&payment_type=\"1\"&body=\"\U8fd9\U662f\U8ba2\U5355\U8be6\U60c5\"&seller_id=\"2088211359940020\"&it_b_pay=\"1m\"&total_fee=\"0.01\"&sign=\"JURzDk2x9VCmMSDgcaVzAJXmffQ7XNK2ebZ4gQj9P9w7qrGE8xTNdEcRXuRF34Raecp%2FQYSUUGPOefhoLbXaXJyM1Uxr25TeFO5ij5r3I%2FNN3K01i%2BJMFX5RAF2zpmWHfy5VB8tYVr%2B8sWf0%2Fs94OAIT%2BPYsjen%2F2YJhQ0QRsFo%3D\"&sign_type=\"RSA\"";
+	"h_homeTitle" = "\U9996\U9875";
+	"h_nearTitle" = "\U9644\U8fd1";
+	"h_findTitle" = "\U53d1\U73b0";
+	"h_myTitle" = "\U6211";
+}
