@@ -5,21 +5,10 @@
 //  Created by jinchenxin on 14-4-14.
 //  Copyright (c) 2014年 jinchenxin. All rights reserved.
 //
-#define DEBUG 0
-#if DEBUG
-//正式服务器地址
-#define BASEURLPATH @"http://music.app.weigee.net"
-#define WEIGEEURLPATH @"http://center.app.weigee.net"
-#define PAYBASEURLPATH @"http://pay.weigee.net"
-#else
-//测试服务器地址
-#define BASEURLPATH @"http://center.wg.joomu.net/"
-//#define BASEURLPATH @"http://weik.weigee.net"
-//#define FILESERVER @"http://fileserver.wg.joomu.net"
-#define FILESERVER @"http://file.weigee.net"
-//#define PAYBASEURLPATH @"http://pay.weigee.net"
-#define PAYBASEURLPATH @"http://pay.wg.joomu.net/"
-#endif
+
+#define BASEURLPATH 
+#define FILESERVER 
+#define PAYBASEURLPATH 
 
 //接口请求的子路径
 
